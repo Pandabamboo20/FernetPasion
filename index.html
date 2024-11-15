@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a la página oficial de FernetPasion.">
+    <title>FernetPasion - Página Oficial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #32CD32, #FFD700); /* Degradado de verde a amarillo */
+            color: #fff;
+            overflow: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            height: 100vh; /* Altura completa de la pantalla */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+            transition: color 0.3s ease;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            transition: color 0.3s ease;
+        }
+
+        /* Hover effect */
+        header h1:hover {
+            color: #ff7e5f;
+        }
+
+        header p:hover {
+            color: #feb47b;
+        }
+
+        /* Buttons */
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons a {
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: white;
+            background: #228B22;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-buttons a:hover {
+            background: #32CD32;
+        }
+
+        /* Biography Section */
+        .bio {
+            padding: 30px 15px;
+            text-align: center;
+        }
+
+        .bio h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .bio p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #141414;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 3rem;
+            }
+
+            header p, .bio p {
+                font-size: 1rem;
+            }
+
+            .cta-buttons a {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FernetPasion</h1>
+    <p>Bienvenido a la página oficial de FernetPasion.</p>
+    <div class="cta-buttons">
+        <a href="https://www.twitch.tv/fernetpasionn" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+        <a href="https://www.tiktok.com/@fernetpasion" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        <a href="https://discord.gg/CFDnUV488y" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+    </div>
+</header>
+
+<section class="bio">
+    <h2>Sobre FernetPasion</h2>
+    <p>FernetPasion es un apasionado creador de contenido que combina humor y originalidad en cada transmisión y video. Su comunidad es una mezcla de entretenimiento, autenticidad y un toque de irreverencia. Únete a FernetPasion para vivir experiencias únicas, desde jugadas emocionantes hasta momentos de risas sin fin. ¡Descubre por qué sus seguidores lo consideran un referente en la diversión!</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 FernetPasion. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
